@@ -1,0 +1,6 @@
+<h2><%= @task.title%></h2>
+<p><%=  @task.completed ? "(x)" : "( )" %><%= @task.details %></p>
+
+
+<p><%= link_to "Edit", edit_path %></p>
+<p><%= link_to "Return", tasks_path %></p>
